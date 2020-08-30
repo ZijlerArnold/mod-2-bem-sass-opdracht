@@ -1,0 +1,21 @@
+/* Header */
+header {
+    display: flex;
+    justify-content: space-around;
+    z-index: 1;
+    position: fixed;
+    @include paddingAllBlocks(20px); 
+    height: 120px;
+    width: 100%;
+    background-color: $headerBackground;
+    -webkit-box-shadow: 0px 10px 7px -9px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 10px 7px -9px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 10px 7px -9px rgba(0, 0, 0, 0.75);
+ 
+  }
+  .header__img {
+    width: auto;
+    padding-top: 20px;
+    height: 7.5em;
+  }
+  

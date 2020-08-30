@@ -1,0 +1,24 @@
+/* Featured Section */
+.featured {
+    @include paddingAllBlocks(20px);
+    &__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      &__image {
+        width: 300px;
+      }
+      &__text-box {
+        @include textBlokkenConfig();
+    }
+    &__text {
+        text-align: justify;
+        padding: 20px;
+        line-height: 1.4em;
+    }  
+  }
+  
+  
+
+  
+ 
